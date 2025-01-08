@@ -1,7 +1,7 @@
 # Individual Project 2
 # Classification with Deep Learning
 #### Due Date
-* Updated to Tuesday Mar 12, 2024 (23:59), 
+* Updated to Tuesday Mar 18, 2025 (23:59), 
 
 
 #### Total Points
@@ -27,16 +27,10 @@ testing model:
 ## Current Leaderboard
 | rank | Name | Accuracy |
 |---|---|---|
-|**1**   | Yuxin Sun | 92.78% |
-|**2**   | Xurong Sun | 84.91% |
-|**3**   | Allen Cheung | 84.74% |
-|**4**   | Vinayak Revankar | 84.17% |
-|**5**   | Chandra Rachabathuni | 83.10% |
-|**6**   | Shubham Dashrath Wagh | 82.79% |
-|**7**   | Nitya Phani Santosh | 81.97% |
-|**8**   | Qiaochu Liu  | 81.79% |
-|**8**   | Sanjeeth Nagappa Chakrasali | 81.79% |
-|**10**  |Yihan Wang | 81.13% |
+|**1**   | --- | --- |
+|**2**   | --- | --- |
+|**3**   | --- | --- |
+
 
 ## Deliverables & Grading
 Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_P2.zip) to Canvas.
