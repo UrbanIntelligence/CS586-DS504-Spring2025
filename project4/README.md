@@ -28,12 +28,9 @@ testing model:
 ## Current Leaderboard
 | rank | Name | Accuracy |
 |---|---|---|
-|**1**   | Jingfeng Xia | 88.61% |
-|**2**   | Chandra Harsha | 88.40% |
-|**3**   | Yuxin Sun | 88.31% |
-|**4**   | Ningcong Chen | 86.79% |
-|**5**   | Sonu Tejwani | 82.87%|
-|**6**   | Allen Cheung | 82.63% |
+|**1**   | --- | --- |
+|**2**   | --- | --- |
+|**3**   | --- | --- |
 
 
 ## Evaluation
