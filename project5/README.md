@@ -5,21 +5,21 @@
 
 #### Important Dates
 * Team Project Starts
-  * Tuesday Feb 27, 2024 
+  * Tuesday Mar 4, 2025
 * Project Proposal Due
-  * Tuesday Mar 12, 2024 (23:59)
+  * Tuesday Mar 18, 2025 (23:59)
   * *About 2 pages*
   * Submit it to Canvas Discussion Board
 * Project Progress Due
-  * Tuesday Apr 16, 2024 (23:59)
+  * Tuesday Apr 22, 2025 (23:59)
   * *About 5 pages*
   * Submit it to Canvas Discussion Board
 * Final Project Due
-  * Monday Apr 29, 2024 (23:59)
+  * Monday May 6, 2025 (23:59)
   * *About 10 pages.* Please use the [template](https://github.com/lllyyyt123/CS586-DS504-Spring23/blob/master/project5/acm_submission_template.docx).
   * *Code and trained model*
   * *Demo (Optional)*
-  * *Self-and-cross evaluation form* Apr 30, 2024 (23:59) on Canvas
+  * *Self-and-cross evaluation form* May 6, 2025 (23:59) on Canvas
   * Submit it to Canvas Assignment -> Final Project
 
 #### Total Points
