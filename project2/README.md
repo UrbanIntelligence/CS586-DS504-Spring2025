@@ -120,7 +120,7 @@ Your model will be evaluated using 100-step sub-trajectories extracted from five
    * [Download and install anaconda](https://www.anaconda.com/download)
    * [Create a virtual environment with commands](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
 * Deep learning package
-   * [Pytorch](https://pytorch.org/tutorials/)
+   * install pytorch: See [install pytorch](https://pytorch.org/get-started/locally/), pip install torch torchvision torchaudio
 * **Keywords**. 
    * If you are wondering where to start, you can try to search "sequence classification", "sequence to sequence" or "sequence embedding" in Google or Github, this might provide you some insights.
    
