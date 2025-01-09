@@ -79,7 +79,7 @@ Please compress all the below files into a zipped file and submit the zip file (
 
   * Bonus (5):
    
-     5 bonus points for the top 3 on the leader board.
+     5 bonus points for the top 3 on the leaderboard.
 
 ## Project Guidelines
 
@@ -113,7 +113,7 @@ Your model will be evaluated using 100-step sub-trajectories extracted from five
 * From project 2, you will need some GPU resources to train deep learning models. There are three resources below you can use:
 * Open source GPU
    * [WPI Turing](https://arc.wpi.edu/cluster-documentation/build/html/index.html)
-   * now you all have access to WPI Turing GPU cluster with your WPI accounts.
+   * now you all have access to WPI Turing GPU cluster with your WPI accounts. Follow the [instructions](https://github.com/UrbanIntelligence/CS586-DS504-Spring2025/blob/main/project2/Turing_Setup_Instructions.pdf) to set up the environments.
    * [Google Cloud](https://cloud.google.com/free)
    * [Google CoLab](https://colab.research.google.com/)
 * Anaconda and virtual environment set tup
@@ -122,6 +122,6 @@ Your model will be evaluated using 100-step sub-trajectories extracted from five
 * Deep learning package
    * install pytorch: See [install pytorch](https://pytorch.org/get-started/locally/), pip install torch torchvision torchaudio
 * **Keywords**. 
-   * If you are wondering where to start, you can try to search "sequence classification", "sequence to sequence" or "sequence embedding" in Google or Github, this might provide you some insights.
+   * If you are wondering where to start, you can try to search "sequence classification", "sequence to sequence" or "sequence embedding" in Google or Github, this might provide you with some insights.
    
 
