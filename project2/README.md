@@ -34,9 +34,7 @@ testing model:
 
 ## Deliverables & Grading
 
-# Submission Instructions for Your Project
-
-## Required Files
+## Submission Required Files
 
 ### Code Files
 Include all necessary Python scripts for your project:
