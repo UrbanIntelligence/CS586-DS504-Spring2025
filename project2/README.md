@@ -34,7 +34,7 @@ testing model:
 
 ## Deliverables & Grading
 
-### Submission Required Files
+### Submission Required Files (Code Files and Trained Model, please don't include the training data)
 
 #### Code Files
 Include all necessary Python scripts for your project:
