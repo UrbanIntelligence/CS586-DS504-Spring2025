@@ -45,7 +45,7 @@ Include all necessary Python scripts for your project:
 - `model.py`: Model definition
 
 #### Trained Model
-Include the trained model file (e.g., `model_LSTM_hidden128_2025.pt`).  
+Include the trained model file (e.g., `best_model.pt`).  
 - **Note**: The filename must match the reference in your `test.py` script.
 
 #### Requirements
