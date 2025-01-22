@@ -34,9 +34,9 @@ testing model:
 
 ## Deliverables & Grading
 
-## Submission Required Files
+### Submission Required Files
 
-### Code Files
+#### Code Files
 Include all necessary Python scripts for your project:
 - `main.py`: Entry point for the project
 - `train.py`: Training logic
@@ -44,14 +44,14 @@ Include all necessary Python scripts for your project:
 - `extract_feature.py`: Data preprocessing logic
 - `model.py`: Model definition
 
-### Trained Model
+#### Trained Model
 Include the trained model file (e.g., `model_LSTM_hidden128_2025.pt`).  
 - **Note**: The filename must match the reference in your `test.py` script.
 
-### Requirements
+#### Requirements
 Include a requirements.txt file that lists any additional Python libraries and dependencies your code requires beyond those already provided.
 
-### Output Format
+#### Output Format
 
 - Your `test.py` script must print the **accuracy** in the following format:
     ```plaintext
