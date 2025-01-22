@@ -63,7 +63,6 @@ Include a requirements.txt file that lists any additional Python libraries and d
   2. **Remove or redirect debug messages** to avoid interfering with the autograder’s ability to parse the output.
   3. The accuracy value must be a floating-point number formatted to **4 decimal places**.
 
----
 
 * PDF Report (50%) [template](https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx)
     * proposal
