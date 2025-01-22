@@ -65,10 +65,6 @@ Include a requirements.txt file that lists any additional Python libraries and d
 
 ---
 
-### Example Output
-```plaintext
-Accuracy=0.8452
-
 * PDF Report (50%) [template](https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx)
     * proposal
     * methodology
