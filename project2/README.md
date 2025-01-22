@@ -51,13 +51,25 @@ Include the trained model file (e.g., `model_LSTM_hidden128_2025.pt`).
 - **Note**: The filename must match the reference in your `test.py` script.
 
 ### Requirements
-Include a `requirements.txt` file that lists all Python libraries and dependencies your code requires. Example:
+Include a requirements.txt file that lists any additional Python libraries and dependencies your code requires beyond those already provided.
+
+### Output Format
+
+- Your `test.py` script must print the **accuracy** in the following format:
+    ```plaintext
+    Accuracy=0.6123
+    ```
+
+- **Important Notes**:
+  1. **Ensure this is the only critical information printed** for evaluation purposes.
+  2. **Remove or redirect debug messages** to avoid interfering with the autograder’s ability to parse the output.
+  3. The accuracy value must be a floating-point number formatted to **4 decimal places**.
+
+---
+
+### Example Output
 ```plaintext
-torch==2.0.1
-pandas==1.5.3
-numpy==1.23.5
-scikit-learn==1.2.2
-```plaintext
+Accuracy=0.8452
 
 * PDF Report (50%) [template](https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx)
     * proposal
