@@ -52,7 +52,7 @@ Include the trained model file (e.g., `model_LSTM_hidden128_2025.pt`).
 
 ### Requirements
 Include a `requirements.txt` file that lists all Python libraries and dependencies your code requires. Example:
-```plaintext
+
 torch==2.0.1
 pandas==1.5.3
 numpy==1.23.5
