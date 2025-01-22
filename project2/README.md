@@ -15,7 +15,7 @@ In this project, you will be asked to finish a sequence classification task usin
 ## Guidelines
 * Implement required functions in model.py, train.py, and test.py.
 * The file extract_feature.py provides a way to preprocess the data before feeding the data to the neural network, you can customize it to get more features but maintain 100 steps as standard for fair comparison.
-* This project should be completed in Python 3. Pytorch is highly recommended, but you can decide to use other tools like MxNet.
+* This project should be completed in Python 3. Pytorch is highly recommended.
 
 ## How to run :
 training model:
@@ -33,7 +33,31 @@ testing model:
 
 
 ## Deliverables & Grading
-Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_P2.zip) to Canvas.
+
+# Submission Instructions for Your Project
+
+## Required Files
+
+### Code Files
+Include all necessary Python scripts for your project:
+- `main.py`: Entry point for the project
+- `train.py`: Training logic
+- `test.py`: Testing logic
+- `extract_feature.py`: Data preprocessing logic
+- `model.py`: Model definition
+
+### Trained Model
+Include the trained model file (e.g., `model_LSTM_hidden128_2025.pt`).  
+- **Note**: The filename must match the reference in your `test.py` script.
+
+### Requirements
+Include a `requirements.txt` file that lists all Python libraries and dependencies your code requires. Example:
+```plaintext
+torch==2.0.1
+pandas==1.5.3
+numpy==1.23.5
+scikit-learn==1.2.2
+
 
 * PDF Report (50%) [template](https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx)
     * proposal
@@ -44,7 +68,7 @@ Please compress all the below files into a zipped file and submit the zip file (
 * Python Code (50%)
     * Code is required to avoid plagiarism.
     * Implement functions in model.py, train.py, and test.py.
-    * The submission should contain a folder including “extract_feature.py, model.py, train.py, test.py, main.py" and your latest trained model. 
+
     * Evaluation criteria.
       | Percentage | Accuracy |
       |---|---|
