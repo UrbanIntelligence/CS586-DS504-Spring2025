@@ -158,7 +158,7 @@ Save the trained generator to a file named **`generate.pt`**.
 torch.save(model, "generate.pt")
 ```
 
-#### 2.Provide Your Generator Definition
+#### 2. Provide Your Generator Definition
 Ensure your code that defines the Generator class is in a file called training.py, with a class signature like this:
 ```python
 class Generator(nn.Module):
@@ -174,7 +174,7 @@ torch==2.0.1
 numpy==1.23.5
 matplotlib==3.7.1
 ```
-### 4. Zip Your Submission
+#### 4. Zip Your Submission
 
 Prepare a ZIP file containing the following files:
 
