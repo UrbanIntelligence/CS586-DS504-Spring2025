@@ -38,7 +38,7 @@ To evaluate your submission, a separate test dataset will be used. The test data
 
 ## Deliverables & Grading
 
-### Submission Required Files (Code Files and Trained Model, please don't include the training data)
+### Submission Required Files (Code Files, Trained Model and Report, please don't include the training data)
 
 #### Code Files
 Include all necessary Python scripts for your project:
@@ -63,6 +63,18 @@ Include a requirements.txt file that lists any additional Python libraries and d
     Accuracy=0.6123
     ```
   Do not multiply the accuracy by 100; percentages are not allowed.
+#### Zip Your Submission
+
+Prepare a ZIP file containing the following files:
+
+- `main.py`: Entry point for the project
+- `train.py`: Training logic
+- `test.py`: Testing logic
+- `extract_feature.py`: Data preprocessing logic
+- `generate_paired_traj.py`: (number of trajectory pairs, 2, 100, feature size)
+- `model.py`: Model definition
+- (Optional) **`requirements.txt`**: If extra dependencies are needed.
+- **PDF Report**
 
 - **Important Notes**:
   1. **Ensure this is the only critical information printed** for evaluation purposes.
