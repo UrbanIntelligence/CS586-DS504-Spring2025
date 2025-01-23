@@ -57,11 +57,13 @@ Include a requirements.txt file that lists any additional Python libraries and d
     ```plaintext
     Accuracy=0.6123
     ```
+  Do not multiply the accuracy by 100; percentages are not allowed.
 
 - **Important Notes**:
   1. **Ensure this is the only critical information printed** for evaluation purposes.
   2. **Remove or redirect debug messages** to avoid interfering with the autograder’s ability to parse the output.
-  3. The accuracy value must be a floating-point number formatted to **4 decimal places**.
+  3. The accuracy value must be a floating-point number formatted to **4 decimal places**,.
+  4. The autograder will evaluate your submission on a CPU-only machine.
      
 #### Grading
 
