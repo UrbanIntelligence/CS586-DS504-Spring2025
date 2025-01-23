@@ -67,7 +67,7 @@ Include a requirements.txt file that lists any additional Python libraries and d
 - **Important Notes**:
   1. **Ensure this is the only critical information printed** for evaluation purposes.
   2. **Remove or redirect debug messages** to avoid interfering with the autograder’s ability to parse the output.
-  3. The accuracy value must be a floating-point number formatted to **4 decimal places**.
+  3. The accuracy value must be a floating-point number formatted to **4 decimal places**, don't change the line **"print(f"Accuracy={test_accu:.4f}")"** in test.py for the correct output for the autograder.
   4. The autograder will evaluate your submission on a CPU-only machine. Please handle it in your code.
   5. Don't change line **"test_file_pattern = os.path.join(test_dir, "X_Y_test100_pairs.pkl")"** in test.py for successfully test.
      
