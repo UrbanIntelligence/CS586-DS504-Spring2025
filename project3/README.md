@@ -141,7 +141,29 @@ plt.show()
 
 ## Deliverables
 
-Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_GAN.zip) to Canvas. 
+### Gradescope Assignment Submission Guide
+
+Follow these instructions to correctly prepare and submit your assignment on Gradescope.
+
+---
+
+### How to Submit Your Assignment on Gradescope
+
+#### 1. Train Your Model & Save It
+
+- Train your model.
+- Save the trained generator to a file named **`generate.pt`**.
+
+```python
+torch.save(model, "generate.pt")
+
+#### 2.Provide Your Generator Definition
+- Ensure your code that defines the Generator class is in a file called training.py, with a class signature like this:
+```python
+class Generator(nn.Module):
+    # Your implementation here
+
+
 
 #### PDF Report
 * Set of Experiments Performed: Include a section describing the set of experiments that you performed, what structures you experimented with (i.e., number of layers, number of neurons in each layer), what hyperparameters you varied (e.g., number of epochs of training, batch size, and any other parameter values, weight initialization schema, activation function), what kind of loss function you used and what kind of optimizer you used. 
