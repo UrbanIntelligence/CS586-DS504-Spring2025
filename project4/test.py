@@ -17,10 +17,10 @@ def test_model(test_dir):
     """
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-    # Construct the file pattern using test_dir
-    test_file_pattern = os.path.join(test_dir, "*.csv")
+    test_file_pattern = os.path.join(test_dir, "X_Y_test100_pairs.pkl")
+
     # Load test data
-    X_test, y_test = load_data(test_file_pattern)
+    test_pairs, test_labels = load_data(test_file_pattern)
 
     # Get the device
 
