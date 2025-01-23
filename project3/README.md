@@ -80,7 +80,6 @@ criterion = torch.nn.BCELoss()
 You have the option of changing how many epochs to train your model for and how large your batch size is. The following is the sample code of how to train GAN. You can add self-defined parameters such as #epoch, learning rate scheduler to the train function.
 
 
-
 ```python
 # Training
 def train():
@@ -167,7 +166,7 @@ class Generator(nn.Module):
 
 #### 3. Optional: Additional Requirements
 If your solution depends on any additional Python packages not included in the base grader environment (e.g., custom libraries or specific versions), list them in a requirements.txt file.
-The autograder will automatically install any dependencies specified in this file.
+The Autograder will automatically install any dependencies specified in this file.
 Example requirements.txt:
 ```python
 torch==2.0.1
@@ -188,7 +187,7 @@ Prepare a ZIP file containing the following files:
 1. **Set of Experiments Performed**  
    - Describe the set of experiments you performed:
      - What structures you experimented with (e.g., number of layers, number of neurons in each layer).
-     - What hyperparameters you varied (e.g., number of epochs, batch size, learning rate).
+     - What hyperparameters you vary (e.g., number of epochs, batch size, learning rate).
      - Any other parameter values you experimented with.
    - Include details about the weight initialization schema, activation functions, loss functions, and optimizers you used.
 
@@ -202,21 +201,11 @@ Prepare a ZIP file containing the following files:
        - Ensure you generate at least **one image for each digit (0–9)**.
      - **Loss plot**: Show the generator and discriminator losses during training.
 
----
-
 Ensure the ZIP file contains all the required files (`generate.pt`, `training.py`, and your PDF report). Missing files may result in deductions or incomplete grading.
-
 
 - Important:
 - Ensure the file names match exactly (generate.pt and training.py).
 - Do not include files like evaluation.py.
-
-#### Python code
-* Include model creation, model training, and plotting code.
-
-#### Generator Model
-* Turn in your best generator saved as “generator.pt” and the weights of your generator saved as “generator_weights.pt”.
-
 
 ## Grading
 
@@ -228,22 +217,10 @@ Ensure the ZIP file contains all the required files (`generate.pt`, `training.py
 
 #### Code (20%) 
 
-To achieve full marks for the coding portion of your assignment, it's crucial that your submitted scripts are operational. This entails that upon testing with a small dataset, your code must execute flawlessly, demonstrating its ability to generate images as intended.
-
-###### Evaluation Process:
-
-We will use an evaluation.py script to assess the functionality of your code. This script, designed to test your code's image generation capabilities, will be run using a sample dataset. A sample of the evaluation.py script is made available.
-
-###### Flexibility with the Sample Code:
-
-While the provided sample of evaluation.py serves as a guideline for how your code will be evaluated, you are encouraged to modify this script as necessary to suit your code's requirements.
+To achieve full marks for the coding portion of your assignment, you must pass Autograder, Autograder will save the plot you generated.
 
 ###### Criteria for Full Credits:
-
-Functionality: Your submission must run without errors and generate images correctly when tested with the evaluation script, whether it's the original or a modified version of evaluation.py. Otherwise, you may lose some points based on your error. These are recommendations for a Successful Submission:
-
 * Code Clarity: Ensure your code is well-commented and organized.
-* Include Dependencies: Verify that all necessary files and dependencies are included in your submission to prevent runtime errors.
 
 #### Model (10%)
 
@@ -251,7 +228,7 @@ You can get full credits if all the generated images can be recognized, otherwis
 
 ## Bonus (10 points)
 
-Generate images from other data sources or train a variation of basic GAN model e.g., cGAN, CycleGAN, as we introduced in the lecture).
+Generate images from other data sources or train a variation of basic GAN model e.g., cGAN, CycleGAN, as we introduced in the lecture), please highlight it in the report.
 
 * Data set
 
