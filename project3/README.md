@@ -151,44 +151,65 @@ Follow these instructions to correctly prepare and submit your assignment on Gra
 
 #### 1. Train Your Model & Save It
 
-- Train your model.
-- Save the trained generator to a file named **`generate.pt`**.
+Train your model.
+Save the trained generator to a file named **`generate.pt`**.
 
 ```python
 torch.save(model, "generate.pt")
 ```
 
 #### 2.Provide Your Generator Definition
-- Ensure your code that defines the Generator class is in a file called training.py, with a class signature like this:
+Ensure your code that defines the Generator class is in a file called training.py, with a class signature like this:
 ```python
 class Generator(nn.Module):
     # Your implementation here
 ```
 
 #### 3. Optional: Additional Requirements
-- If your solution depends on any additional Python packages not included in the base grader environment (e.g., custom libraries or specific versions), list them in a requirements.txt file.
-- The autograder will automatically install any dependencies specified in this file.
+If your solution depends on any additional Python packages not included in the base grader environment (e.g., custom libraries or specific versions), list them in a requirements.txt file.
+The autograder will automatically install any dependencies specified in this file.
 Example requirements.txt:
 ```python
 torch==2.0.1
 numpy==1.23.5
 matplotlib==3.7.1
 ```
-#### 4. Zip Your Submission
-- Prepare a ZIP file containing the following files:
+### 4. Zip Your Submission
 
-generate.pt (your trained model file).
-training.py (your Generator class definition).
-(Optional) requirements.txt (if extra dependencies are needed).
-Important:
+Prepare a ZIP file containing the following files:
 
+- **`generate.pt`**: Your trained model file.
+- **`training.py`**: Your `Generator` class definition.
+- (Optional) **`requirements.txt`**: If extra dependencies are needed.
+- **PDF Report**: Include a detailed report with the following sections:
+
+#### PDF Report Contents
+
+1. **Set of Experiments Performed**  
+   - Describe the set of experiments you performed:
+     - What structures you experimented with (e.g., number of layers, number of neurons in each layer).
+     - What hyperparameters you varied (e.g., number of epochs, batch size, learning rate).
+     - Any other parameter values you experimented with.
+   - Include details about the weight initialization schema, activation functions, loss functions, and optimizers you used.
+
+2. **Special Skills**  
+   - Include any skills or methods you used to improve generation quality.
+   - Refer to [GAN Hacks](https://github.com/soumith/ganhacks) for tips and include anything relevant you applied.
+
+3. **Visualization**  
+   - Include:
+     - **25 (5×5) final generated images**: Format them as shown in the assignment goal.
+       - Ensure you generate at least **one image for each digit (0–9)**.
+     - **Loss plot**: Show the generator and discriminator losses during training.
+
+---
+
+Ensure the ZIP file contains all the required files (`generate.pt`, `training.py`, and your PDF report). Missing files may result in deductions or incomplete grading.
+
+
+- Important:
 - Ensure the file names match exactly (generate.pt and training.py).
 - Do not include files like evaluation.py.
-
-#### PDF Report
-* Set of Experiments Performed: Include a section describing the set of experiments that you performed, what structures you experimented with (i.e., number of layers, number of neurons in each layer), what hyperparameters you varied (e.g., number of epochs of training, batch size, and any other parameter values, weight initialization schema, activation function), what kind of loss function you used and what kind of optimizer you used. 
-* Special skills: Include the skills that can improve the generation quality. Here are some [tips](https://github.com/soumith/ganhacks) that may help.   
-* Visualization: Include 25 (5\*5) final generated images which are formatted as the example in Goal and a loss plot of the generator and discriminator during your training. For generated images, you need to generate at least one image for each digit. 
 
 #### Python code
 * Include model creation, model training, and plotting code.
