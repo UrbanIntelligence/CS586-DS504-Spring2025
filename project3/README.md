@@ -156,14 +156,34 @@ Follow these instructions to correctly prepare and submit your assignment on Gra
 
 ```python
 torch.save(model, "generate.pt")
+```
 
 #### 2.Provide Your Generator Definition
 - Ensure your code that defines the Generator class is in a file called training.py, with a class signature like this:
 ```python
 class Generator(nn.Module):
     # Your implementation here
+```
 
+#### 3. Optional: Additional Requirements
+- If your solution depends on any additional Python packages not included in the base grader environment (e.g., custom libraries or specific versions), list them in a requirements.txt file.
+- The autograder will automatically install any dependencies specified in this file.
+Example requirements.txt:
+```python
+torch==2.0.1
+numpy==1.23.5
+matplotlib==3.7.1
+```
+#### 4. Zip Your Submission
+- Prepare a ZIP file containing the following files:
 
+generate.pt (your trained model file).
+training.py (your Generator class definition).
+(Optional) requirements.txt (if extra dependencies are needed).
+Important:
+
+- Ensure the file names match exactly (generate.pt and training.py).
+- Do not include files like evaluation.py.
 
 #### PDF Report
 * Set of Experiments Performed: Include a section describing the set of experiments that you performed, what structures you experimented with (i.e., number of layers, number of neurons in each layer), what hyperparameters you varied (e.g., number of epochs of training, batch size, and any other parameter values, weight initialization schema, activation function), what kind of loss function you used and what kind of optimizer you used. 
