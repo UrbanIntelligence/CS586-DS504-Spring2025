@@ -203,8 +203,9 @@ Prepare a ZIP file containing the following files:
 
 Ensure the ZIP file contains all the required files (`generate.pt`, `training.py`, and your PDF report). Missing files may result in deductions or incomplete grading.
 
-- Important:
+## **Important Notes**:
 - Ensure the file names match exactly (generate.pt and training.py).
+- Match your training "z_dim" with evaluation.py to generate clear images for the full credits.
 - Do not include files like evaluation.py.
 
 ## Grading
