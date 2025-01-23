@@ -38,7 +38,39 @@ To evaluate your submission, a separate test dataset will be used. The test data
 
 ## Deliverables & Grading
 
-Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_P3.zip) to Canvas. 
+### Submission Required Files (Code Files and Trained Model, please don't include the training data)
+
+#### Code Files
+Include all necessary Python scripts for your project:
+- `main.py`: Entry point for the project
+- `train.py`: Training logic
+- `test.py`: Testing logic
+- `extract_feature.py`: Data preprocessing logic
+- `generate_paired_traj.py`: (number of trajectory pairs, 2, 100, feature size)
+- `model.py`: Model definition
+
+#### Trained Model
+Include the trained model file (e.g., `best_model.pt`).  
+- **Note**: The filename must match the reference in your `test.py` script.
+
+#### Requirements
+Include a requirements.txt file that lists any additional Python libraries and dependencies your code requires beyond those already provided.
+
+#### Output Format
+
+- Your `test.py` script must print the **accuracy** in the following format:
+    ```plaintext
+    Accuracy=0.6123
+    ```
+  Do not multiply the accuracy by 100; percentages are not allowed.
+
+- **Important Notes**:
+  1. **Ensure this is the only critical information printed** for evaluation purposes.
+  2. **Remove or redirect debug messages** to avoid interfering with the autograder’s ability to parse the output.
+  3. The accuracy value must be a floating-point number formatted to **4 decimal places**,.
+  4. The autograder will evaluate your submission on a CPU-only machine.
+     
+#### Grading
 
 * PDF Report (50%) [template](https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx)
     * proposal
