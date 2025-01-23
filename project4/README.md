@@ -23,7 +23,7 @@ training model:
 * `$ python main.py train`
 
 testing model:
-* `$ python main.py test`
+* `$ python main.py test --test_dir = `
 
 ## Current Leaderboard
 | rank | Name | Accuracy |
