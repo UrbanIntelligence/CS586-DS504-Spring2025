@@ -32,11 +32,17 @@ testing model:
 |**3**   | --- | --- |
 
 
-## Deliverables & Grading
+## Deliverables
 
-### Submission Required Files (Code Files, Trained Model, and Report, please don't include the training data)
+### Gradescope Assignment Submission Guide
 
-#### Code Files
+Follow these instructions to correctly prepare and submit your assignment on Gradescope.
+
+---
+
+### How to Submit Your Assignment on Gradescope
+
+#### 1. Code Files
 Include all necessary Python scripts for your project:
 - `main.py`: Entry point for the project
 - `train.py`: Training logic
@@ -44,14 +50,14 @@ Include all necessary Python scripts for your project:
 - `extract_feature.py`: Data preprocessing logic
 - `model.py`: Model definition
 
-#### Trained Model
+#### 2. Trained Model
 Include the trained model file (e.g., `best_model.pt`).  
 - **Note**: The filename must match the reference in your `test.py` script.
 
-#### Requirements
+#### 3. Requirements
 Include a requirements.txt file that lists any additional Python libraries and dependencies your code requires beyond those already provided.
 
-#### Output Format
+#### 4. Output Format
 
 - Your `test.py` script must print the **accuracy** in the following format:
     ```plaintext
@@ -59,7 +65,7 @@ Include a requirements.txt file that lists any additional Python libraries and d
     ```
   Do not multiply the accuracy by 100; percentages are not allowed.
 
-#### Zip Your Submission
+#### 5. Zip Your Submission
 
 Prepare a ZIP file containing the following files:
 
