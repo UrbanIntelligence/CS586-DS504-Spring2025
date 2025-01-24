@@ -180,6 +180,8 @@ Prepare a ZIP file containing the following files:
 - **`generate.pt`**: Your trained model file.
 - **`training.py`**: Your `Generator` class definition.
 - (Optional) **`requirements.txt`**: If extra dependencies are needed.
+- **25 (5×5) final generated images**.
+- **Loss plot**.
 - **PDF Report**: Include a detailed report with the following sections:
 
 #### PDF Report Contents
