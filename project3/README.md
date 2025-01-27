@@ -1,4 +1,3 @@
-
 # Individual Project 3:
 # Image Generation with GAN
 
@@ -80,6 +79,7 @@ criterion = torch.nn.BCELoss()
 You have the option of changing how many epochs to train your model for and how large your batch size is. The following is the sample code of how to train GAN. You can add self-defined parameters such as #epoch, learning rate scheduler to the train function.
 
 
+
 ```python
 # Training
 def train():
@@ -140,75 +140,19 @@ plt.show()
 
 ## Deliverables
 
-### Gradescope Assignment Submission Guide
+Please compress all the below files into a zipped file and submit the zip file (firstName_lastName_GAN.zip) to Canvas. 
 
-Follow these instructions to correctly prepare and submit your assignment on Gradescope.
+#### PDF Report
+* Set of Experiments Performed: Include a section describing the set of experiments that you performed, what structures you experimented with (i.e., number of layers, number of neurons in each layer), what hyperparameters you varied (e.g., number of epochs of training, batch size, and any other parameter values, weight initialization schema, activation function), what kind of loss function you used and what kind of optimizer you used. 
+* Special skills: Include the skills that can improve the generation quality. Here are some [tips](https://github.com/soumith/ganhacks) that may help.   
+* Visualization: Include 25 (5\*5) final generated images which are formatted as the example in Goal and a loss plot of the generator and discriminator during your training. For generated images, you need to generate at least one image for each digit. 
 
----
+#### Python code
+* Include model creation, model training, and plotting code.
 
-### How to Submit Your Assignment on Gradescope
+#### Generator Model
+* Turn in your best generator saved as “generator.pt” and the weights of your generator saved as “generator_weights.pt”.
 
-#### 1. Train Your Model & Save It
-
-Train your model.
-Save the trained generator to a file named **`generate.pt`**.
-
-```python
-torch.save(model, "generate.pt")
-```
-
-#### 2. Provide Your Generator Definition
-Ensure your code that defines the Generator class is in a file called training.py, with a class signature like this:
-```python
-class Generator(nn.Module):
-    # Your implementation here
-```
-
-#### 3. Optional: Additional Requirements
-If your solution depends on any additional Python packages not included in the base grader environment (e.g., custom libraries or specific versions), list them in a requirements.txt file.
-The Autograder will automatically install any dependencies specified in this file.
-Example requirements.txt:
-```python
-torch==2.0.1
-numpy==1.23.5
-matplotlib==3.7.1
-```
-#### 4. Zip Your Submission
-
-Prepare a ZIP file containing the following files:
-
-- **`generate.pt`**: Your trained model file.
-- **`training.py`**: Your `Generator` class definition.
-- (Optional) **`requirements.txt`**: If extra dependencies are needed.
-- **25 (5×5) final generated images**.
-- **Loss plot**.
-- **PDF Report**: Include a detailed report with the following sections:
-
-#### PDF Report Contents
-
-1. **Set of Experiments Performed**  
-   - Describe the set of experiments you performed:
-     - What structures you experimented with (e.g., number of layers, number of neurons in each layer).
-     - What hyperparameters you vary (e.g., number of epochs, batch size, learning rate).
-     - Any other parameter values you experimented with.
-   - Include details about the weight initialization schema, activation functions, loss functions, and optimizers you used.
-
-2. **Special Skills**  
-   - Include any skills or methods you used to improve generation quality.
-   - Refer to [GAN Hacks](https://github.com/soumith/ganhacks) for tips and include anything relevant you applied.
-
-3. **Visualization**  
-   - Include:
-     - **25 (5×5) final generated images**: Format them as shown in the assignment goal.
-       - Ensure you generate at least **one image for each digit (0–9)**.
-     - **Loss plot**: Show the generator and discriminator losses during training.
-
-Ensure the ZIP file contains all the required files (`generate.pt`, `training.py`, and your PDF report). Missing files may result in deductions or incomplete grading.
-
-## **Important Notes**:
-- Ensure the file names match exactly (generate.pt and training.py).
-- Match your training "z_dim" with evaluation.py to generate clear images for the full credits.
-- Do not include files like evaluation.py.
 
 ## Grading
 
@@ -220,10 +164,22 @@ Ensure the ZIP file contains all the required files (`generate.pt`, `training.py
 
 #### Code (20%) 
 
-To achieve full marks for the coding portion of your assignment, you must pass Autograder, Autograder will save the plot you generated.
+To achieve full marks for the coding portion of your assignment, it's crucial that your submitted scripts are operational. This entails that upon testing with a small dataset, your code must execute flawlessly, demonstrating its ability to generate images as intended.
+
+###### Evaluation Process:
+
+We will use an evaluation.py script to assess the functionality of your code. This script, designed to test your code's image generation capabilities, will be run using a sample dataset. A sample of the evaluation.py script is made available.
+
+###### Flexibility with the Sample Code:
+
+While the provided sample of evaluation.py serves as a guideline for how your code will be evaluated, you are encouraged to modify this script as necessary to suit your code's requirements.
 
 ###### Criteria for Full Credits:
+
+Functionality: Your submission must run without errors and generate images correctly when tested with the evaluation script, whether it's the original or a modified version of evaluation.py. Otherwise, you may lose some points based on your error. These are recommendations for a Successful Submission:
+
 * Code Clarity: Ensure your code is well-commented and organized.
+* Include Dependencies: Verify that all necessary files and dependencies are included in your submission to prevent runtime errors.
 
 #### Model (10%)
 
@@ -231,7 +187,7 @@ You can get full credits if all the generated images can be recognized, otherwis
 
 ## Bonus (10 points)
 
-Generate images from other data sources or train a variation of basic GAN model e.g., cGAN, CycleGAN, as we introduced in the lecture), please highlight it in the report.
+Generate images from other data sources or train a variation of basic GAN model e.g., cGAN, CycleGAN, as we introduced in the lecture).
 
 * Data set
 
@@ -274,4 +230,3 @@ Generate images from other data sources or train a variation of basic GAN model 
    
    python evaluation.py
    ```
-
