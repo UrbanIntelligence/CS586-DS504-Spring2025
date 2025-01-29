@@ -185,7 +185,7 @@ Functionality: Your submission must run without errors and generate images corre
 
 You can get full credits if all the generated images can be recognized, otherwise, you may lose some points. Also, the code you submitted should be able to generate all 10 different digits.
 
-## Bonus (10 points)
+## Bonus (5 points)
 
 Generate images from other data sources or train a variation of basic GAN model e.g., cGAN, CycleGAN, as we introduced in the lecture).
 
