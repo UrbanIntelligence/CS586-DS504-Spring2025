@@ -38,7 +38,9 @@ To evaluate your submission, a separate test dataset will be used. The test data
 
 ## Deliverables & Grading
 
-### Submission Required Files (Code Files, Trained Model, and Report, please don't include the training data)
+### Gradescope Assignment Submission Guide
+
+Follow these instructions to correctly prepare and submit your assignment on Gradescope.
 
 #### Code Files
 Include all necessary Python scripts for your project:
@@ -73,6 +75,7 @@ Prepare a ZIP file containing the following files:
 - `extract_feature.py`: Data preprocessing logic
 - `generate_paired_traj.py`: (number of trajectory pairs, 2, 100, feature size)
 - `model.py`: Model definition
+- **trained model file** (e.g., `best_model.pt`)
 - (Optional) **`requirements.txt`**: If extra dependencies are needed.
 - **PDF Report**
 
