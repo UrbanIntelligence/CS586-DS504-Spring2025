@@ -12,7 +12,7 @@ In this project, you will use Github APIs to download data and analyze the colle
 * Question to answer: Sample GitHub account IDs and estimate the total number of valid users in Github. In GitHub, user's ID is increasing from 1, but the ID will not be avaiable in GitHub API if the user deletes his/her account. In particular, 5% of the users' ID from 1 to 1000 were missing. Since the limits of GitHub API, you cannot download all the IDs and count the number of missing IDs, you need to sample some IDs and estimate the number of valid users with an unbiased estimator. This project will be completed in Python 3. 
 
 ## Deliverables & Grading
-Zip the python files and PDF with the name Lastname_firstname.zip.
+### Compress the Python files and the PDF into a ZIP archive named Lastname_Firstname.zip.
 * PDF Report (70%) [template](https://www.acm.org/binaries/content/assets/publications/taps/acm_submission_template.docx)
 	* proposal
 	* methodology
