@@ -23,7 +23,6 @@ training model:
 
 testing model:
 * `$ python main.py test --test_dir=/path/to/test_data_directory`
-The --test_dir argument specifies the directory containing your split testing set.
 
 ## Current Leaderboard
 | rank | Name | Accuracy |
