@@ -15,7 +15,7 @@
   * *About 5 pages*
   * Submit it to Canvas Discussion Board
 * Final Project Due
-  * Monday May 6, 2025 (23:59)
+  * Tuesday May 6, 2025 (23:59)
   * *About 10 pages.* Please use the [template](https://github.com/lllyyyt123/CS586-DS504-Spring23/blob/master/project5/acm_submission_template.docx).
   * *Code and trained model*
   * *Demo (Optional)*
