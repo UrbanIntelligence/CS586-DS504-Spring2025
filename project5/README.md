@@ -7,7 +7,7 @@
 * Team Project Starts
   * Tuesday Mar 4, 2025
 * Project Proposal Due
-  * Tuesday Mar 18, 2025 (23:59)
+  * Tuesday Mar 25, 2025 (23:59)
   * *About 2 pages*
   * Submit it to Canvas Discussion Board
 * Project Progress Due
