@@ -128,8 +128,9 @@ Prepare a ZIP file containing the following files:
     4. Conclusion (5)
   
    * Bonus (5):
-        a. Add a screenshot of your test score (test accuracy) at the end of your report for the leaderboard bonus.
-        b. 5 bonus points for the top 3 on the leaderboard.
+
+       Add a screenshot of your test score (test accuracy) at the end of your report for the leaderboard bonus.
+       5 bonus points for the top 3 on the leaderboard.
 
 ## Project Guidelines
 
