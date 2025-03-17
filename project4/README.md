@@ -126,6 +126,7 @@ Prepare a ZIP file containing the following files:
         b. Performance comparing to your baselines (maybe different network structure) (5)
         c. Hyperparameter (learning rate, dropout, activation) (5)
     4. Conclusion (5)
+  
    * Bonus (5):
      Add a screenshot of your test score (test accuracy) at the end of your report for the leaderboard bonus.
      5 bonus points for the top 3 on the leaderboard.
