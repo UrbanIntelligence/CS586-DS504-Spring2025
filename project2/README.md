@@ -90,6 +90,7 @@ Prepare a ZIP file containing the following files:
     * methodology
     * empirical results and evaluation
     * conclusion
+    * Add a screenshot of your test score (test accuracy) at the end of your report for the leaderboard bonus.
     
 * Python Code (50%)
     * Code is required to avoid plagiarism.
