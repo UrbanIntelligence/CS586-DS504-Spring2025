@@ -27,7 +27,7 @@ testing model:
 ## Current Leaderboard
 | rank | Name | Accuracy |
 |---|---|---|
-|**1**   | --- | --- |
+|**1**   | 	Alysha Creelman | 0.8696 |
 |**2**   | --- | --- |
 |**3**   | --- | --- |
 
