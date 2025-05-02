@@ -28,9 +28,9 @@ testing model:
 ## Current Leaderboard
 | rank | Name | Accuracy |
 |---|---|---|
-|**1**   | --- | --- |
-|**2**   | --- | --- |
-|**3**   | --- | --- |
+|**1**   | Mansi Rupesh Mantri | 0.8534 |
+|**2**   | Blake Mcleod | 0.8220 |
+|**3**   | Ivan Eroshenko | 0.8071 |
 
 
 ## Evaluation
